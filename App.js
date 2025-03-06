@@ -4,13 +4,13 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import BarChart from "./components/BarChart";
+
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <BarChart />
+     
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
